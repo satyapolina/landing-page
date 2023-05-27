@@ -1,0 +1,154 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  header {
+    background-color:blueviolet;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 80px;
+    text-align: center;
+    
+  }
+  
+  #hero {
+    background-color: #f5f5f5;
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  #features {
+    background-color:white;
+   
+  }
+  
+  #features h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    margin-right: 20px;
+  }
+  
+  #pricing {
+    background-color:#f5f5f5;
+  }
+  
+  #pricing h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-option h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact {
+    background-color:#fff;
+  }
+  
+  #contact h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:blueviolet;
+    color:blueviolet;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:blueviolet;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
